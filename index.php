@@ -1,7 +1,9 @@
 <?
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
 $dev = $_SERVER['HTTP_HOST'] == 'localhost';
+if ($dev) {
+	error_reporting(E_ALL);
+	ini_set('display_errors', 1);
+}
 $path = $dev ? '/tues.daynightmusic.club/' : '/';
 $root_path = $_SERVER['DOCUMENT_ROOT'] . $path;
 $www_path = 'http://' . $_SERVER['HTTP_HOST'] . $path;
