@@ -1,6 +1,6 @@
 body {
 	font-family: "PT Serif", Georgia, "Times New Roman", serif;
-	font-size:20px;
+	font-size:16px;
 	text-align:center;
 }
 
@@ -19,6 +19,38 @@ footer {
 
 section {
 	text-align:left;
+	overflow:auto;
+}
+
+div.episode {
+	width:100%;
+	clear:both;
+	padding:10px 0 10px 0;
+	overflow:auto;
+	border-top:1px solid #999;
+}
+
+div.episode div {
+	float:left;
+}
+
+div.episode div.ep-id {
+	width:6%;
+}
+
+div.episode div.ep-artist,
+div.episode div.ep-album {
+	width:42%;
+	margin-left:5%;
+	line-height:20px;
+}
+
+div.episode div.ep-artist {
+	font-weight:bold;
+}
+
+div.episode div.ep-album {
+	font-style:italic;
 }
 
 footer {
