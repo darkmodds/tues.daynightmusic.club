@@ -1,4 +1,5 @@
 <?
+date_default_timezone_set("Australia/Sydney");
 $dev = $_SERVER['HTTP_HOST'] == 'localhost';
 if ($dev) {
 	error_reporting(E_ALL);
