@@ -1,0 +1,29 @@
+body {
+	font-family: "PT Serif", Georgia, "Times New Roman", serif;
+	font-size:20px;
+	text-align:center;
+}
+
+h1 {
+	font-family:"Helvetica",Arial,sans-serif;
+	font-size:80px;
+	font-weight:bold;
+	margin:40px 0;
+}
+
+section,
+footer {
+	width:800px;
+	margin:0 auto;
+}
+
+section {
+	text-align:left;
+}
+
+footer {
+	color:#999;
+	font-size:16px;
+	border-top:1px solid #999;
+	padding:40px 0;
+}
